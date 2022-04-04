@@ -1,6 +1,65 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons');
 
+.centered-container {
+	 background: #fff;
+	 padding: 1rem 1.5rem;
+	 border-radius: 0.125rem;
+	 border: 1px solid rgba(0, 0, 0, .1);
+	 box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .04);
+	 display: flex;
+	 flex: 0 0 auto;
+	 flex-direction: column;
+}
+ .actions {
+	 width: 100%;
+	 display: flex;
+	 flex-direction: column;
+	 align-self: flex-start;
+	 margin: 0.25rem 0 1rem;
+}
+ .actions-title {
+	 display: block;
+	 width: 100%;
+	 margin: 0 0 0.25rem;
+	 color: #777;
+}
+ .actions-content {
+	 display: flex;
+	 flex-direction: row;
+}
+
+.button-35 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	cursor: pointer;
+	border: 3px solid;
+	padding: 0.25em 0.5em;
+	box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+	position: relative;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.button-35:active {
+	box-shadow: 0px 0px 0px 0px;
+	top: 5px;
+	left: 5px;
+}
+
+@media (min-width: 768px) {
+	.button-35 {
+		padding: 0.25em 0.75em;
+	}
+}
 
 h1 {
     font-family: Khula;
@@ -46,13 +105,9 @@ svg {
     height: 100%;
 }
 
-.firstPart{
-    background-image: url("img/bg.jpg");
-    min-height: 500px;
-    padding-top: 100px;
-	outline-style: groove;
-	outline-color: gray;
-	outline-width: thick;
+.firstPart {
+	min-height: 500px;
+	padding-top: 100px;
 }
 
 .NAME {
@@ -215,7 +270,7 @@ svg {
 	 margin: 20px;
 	 transition: 0.3s all ease-in-out;
 	 position: relative;
-	 box-shadow: 0px 0px 15px background;
+	 box-shadow: 0px 0px 15px #323237;
 }
  .container .box .boxContent {
 	 display: flex;
@@ -226,18 +281,18 @@ svg {
 	 padding: 15px;
 }
  .container .box .boxContent .icon {
-	 color: #8293ff;
+	 color: #000;
 	 font-size: 48px;
 	 padding: 15px;
 }
  .container .box .boxContent .title {
 	 font-size: 24px;
-	 color: #8293ff;
+	 color: #000;
 	 font-weight: bold;
 	 padding: 10px;
 }
  .container .box .boxContent .desc {
-	 color: #8293ff;
+	 color: #000;
 	 font-size: 15px;
 	 height: 20%;
 }
@@ -248,10 +303,10 @@ svg {
 	 top: 0;
 	 left: 0;
 }
- .container .box:hover {
-	 background: linear-gradient(130deg, #503bff 0%, #8293ff 100%);
-	 box-shadow: none;
-}
+	.container .box:hover {
+		background: linear-gradient(130deg, #323237 0%, #fff 100%);
+		box-shadow: none;
+	}
  .container .box:hover .icon, .container .box:hover .title, .container .box:hover .desc {
 	 color: white;
 	 transition: 0.3s all ease-in-out;
@@ -663,7 +718,7 @@ svg {
 }
 
 .theFooter {
-	padding-top: 200px;
+	padding-top: 200px; 
 }
 
 .delay-1 {
@@ -696,8 +751,6 @@ h1 {
 	align-items: center;
 	height: 550px;
 	padding: 0 20%;
-	background-image: url("img/bg2.jpg");
-	background-position-y: center;
 }
 
 *::-webkit-scrollbar {
@@ -784,7 +837,6 @@ h1 {
 	 content: "";
 	 width: calc(100% + 4px);
 	 height: 4px;
-	 background: #1a7fa8;
 	 border-radius: 0 0 4px 4px;
 	 transition: all 0.3s cubic-bezier(0.28, 0.05, 0.65, 0.97);
 }
@@ -878,4 +930,12 @@ h1 {
 
 .currentWork {
 	transform: translateX(-210%);
+}
+
+.firstPart {
+	background-color: #454545;
+}
+
+#container {
+	background-color: #454545;
 }
