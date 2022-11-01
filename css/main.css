@@ -340,6 +340,10 @@ figcaption {
   filter: grayscale(100%);
 }
 
+.contactContainer .spigot {
+  background: none;
+}
+
 .discordText {
   position: absolute;
   visibility: hidden;
