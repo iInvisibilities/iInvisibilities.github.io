@@ -100,14 +100,19 @@ li img {
     align-items: center;
     gap: 2rem;
     background: rgb(30, 30, 30);
-    border-radius: 1rem;
     padding: .5rem;
     width: 75%;
     margin: 2rem auto;
+    box-shadow: 0 0 10px rgb(30, 30, 30);
 }
 
 .links:hover img[src="porto/arrow.svg"] {
     transform: translateX(1rem);
+}
+
+.links:has(img:not([src="porto/arrow.svg"]):hover) img[src="porto/arrow.svg"] {
+    transform: rotate(350deg) scale(1.1);
+    filter: invert(.9);
 }
 
 a img {
