@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>past work of mine</title>
+		<link
+			rel="stylesheet"
+			href="output.css"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="noisy bg-[#321F28] text-[#E79E4F] p-0">
+		<div
+			id="promptObjOverlay"
+			class="w-dvw h-dvh items-center justify-center z-20 fixed overflow-clip hidden"
+		>
+			<div
+				id="promptObj"
+				class="shadow-md transition-all ease-out absolute inset-0 top-1/4 mx-auto mt-8 md:w-3/4 lg:w-1/2 w-full lg:h-[42rem] opacity-0 text-[#321F28] bg-[#E79E4F]"
+			>
+				<div class="w-full h-full relative overflow-y-auto overflow-x-clip">
+					<button
+						onclick="togglePrompt()"
+						class="absolute right-0 top-0 p-2 hover:scale-105 hover:rotate-6 transition-all duration-200 ease-out z-10"
+					>
+						<img
+							src="assets/img/close.png"
+							alt=""
+						/>
+					</button>
+					<div class="absolute">
+						<div class="flex p-2 items-center gap-2 md:gap-5 flex-wrap">
+							<h1
+								id="promptTitle"
+								class="text-2xl md:text-4xl prompt-bold"
+							></h1>
+							<a
+								class="transition-all duration-75 ease-out hover:scale-105 hover:-rotate-3 px-2 flex items-center text-xl prompt-regularess text-[#E79E4F] bg-[#321F28]"
+								target="_blank"
+								id="promptLink"
+								href
+								>Visit
+								<img
+									class="w-7"
+									src="assets/svg/noun-leaving-site-620327.svg"
+									alt=""
+							/></a>
+						</div>
+						<div class="max-h-[32rem] w-full relative overflow-clip">
+							<div
+								id="promptImgs"
+								class="flex overflow-x-hidden h-full w-full"
+							></div>
+							<button
+								id="scrollToNextBtn"
+								class="absolute right-2 inset-y-0 my-auto z-10 w-20 h-max -rotate-90 opacity-30 hover:opacity-75 hover:scale-105 hover:right-1 transition-all duration-300 ease-out"
+							>
+								<img
+									src="assets/svg/reshot-icon-down-arrow-Q9DWZC4PFY.svg"
+									alt=""
+								/>
+							</button>
+						</div>
+						<p
+							id="promptFullDesc"
+							class="text-md md:text-lg prompt-regular pl-2 whitespace-break-spaces"
+						></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div
+			id="promptBg"
+			class="flex md:p-10 transition-all duration-100 ease-out mt-5 mb-5 md:mb-0 md:mt-0 gap-5 justify-center md:justify-start flex-wrap"
+		>
+			<article
+				id="feedbackr"
+				class="w-80 h-64 overflow-clip hover:cursor-pointer"
+			>
+				<div class="bg-[#E79E4F] text-[#321F28] px-2">
+					<h1 class="prompt-bold text-3xl">Feedbackr</h1>
+					<p class="prompt-regular text-lg">And so it begins...</p>
+				</div>
+				<div class="relative w-80 h-48 overflow-clip">
+					<div
+						class="absolute px-2 opacity-90 grid prompt-bold items-end text-4xl text-[#321F28] w-80 h-48 bg-[#E79E4F] select-none z-10 bottom-full revealer transition-all ease-out duration-200"
+					>
+						<p>what's this?</p>
+					</div>
+					<img
+						class="absolute"
+						src="assets/img/feedbackr/www.feedbackr.live_.png"
+						alt=""
+					/>
+				</div>
+			</article>
+			<article
+				id="landingpagecopywriter"
+				class="w-80 h-64 overflow-clip hover:cursor-pointer"
+			>
+				<div class="bg-[#E79E4F] text-[#321F28] px-2">
+					<h1 class="prompt-bold text-[1.5rem]">LandingPageCopywriter</h1>
+					<p class="prompt-regular text-lg">BaaS or something like that...</p>
+				</div>
+				<div class="relative w-80 h-48 overflow-clip">
+					<div
+						class="absolute px-2 opacity-90 grid prompt-bold items-end text-3xl text-[#321F28] w-80 h-48 bg-[#E79E4F] select-none z-10 bottom-full revealer transition-all ease-out duration-200"
+					>
+						<p>what do you mean?</p>
+					</div>
+					<img
+						class="absolute"
+						src="assets/img/landingpagecopywriter/landingpagecopywriter.live_.png"
+						alt=""
+					/>
+				</div>
+			</article>
+			<article
+				id="planifier"
+				class="w-80 h-64 overflow-clip hover:cursor-pointer"
+			>
+				<div class="bg-[#E79E4F] text-[#321F28] px-2">
+					<h1 class="prompt-bold text-3xl">Planifier</h1>
+					<p class="prompt-regular text-lg">Wasn't so great of an idea...</p>
+				</div>
+				<div class="relative w-80 h-48 overflow-clip">
+					<div
+						class="absolute px-2 opacity-90 grid prompt-bold items-end text-4xl text-[#321F28] w-80 h-48 bg-[#E79E4F] select-none z-10 bottom-full revealer transition-all ease-out duration-200"
+					>
+						<p>huh?</p>
+					</div>
+					<img
+						class="absolute"
+						src="assets/img/planifier/_D__SaaS_srs_Planifier_frontend_src_project_team_panel.html.png"
+						alt=""
+					/>
+				</div>
+			</article>
+			<article
+				id="scrolless"
+				class="w-80 h-64 overflow-clip hover:cursor-pointer"
+			>
+				<div class="bg-[#E79E4F] text-[#321F28] px-2">
+					<h1 class="prompt-bold text-3xl">Scrolless</h1>
+					<p class="prompt-regular text-lg">My first chrome extension!</p>
+				</div>
+				<div class="relative w-80 h-48 overflow-clip">
+					<div
+						class="absolute px-2 opacity-90 grid prompt-bold items-end text-2xl text-[#321F28] w-80 h-48 bg-[#E79E4F] select-none z-10 bottom-full revealer transition-all ease-out duration-200"
+					>
+						<p>you make chrome extensions?!</p>
+					</div>
+					<img
+						class="absolute"
+						src="assets/img/scrolless/unnamed.jpg"
+						alt=""
+					/>
+				</div>
+			</article>
+			<article
+				id="magicbouton"
+				class="w-80 h-64 overflow-clip hover:cursor-pointer"
+			>
+				<div class="bg-[#E79E4F] text-[#321F28] px-2">
+					<h1 class="prompt-bold text-3xl">MagicBouton</h1>
+					<p class="prompt-regular text-lg">A mini components library..</p>
+				</div>
+				<div class="relative w-80 h-48 overflow-clip">
+					<div
+						class="absolute px-2 opacity-90 grid prompt-bold items-end text-2xl text-[#321F28] w-80 h-48 bg-[#E79E4F] select-none z-10 bottom-full revealer transition-all ease-out duration-200"
+					>
+						<p>not a copywriter</p>
+					</div>
+					<img
+						class="absolute"
+						src="assets/img/magicbouton/www.magicbouton.art_ (1).png"
+						alt=""
+					/>
+				</div>
+			</article>
+		</div>
+	</body>
+	<script src="app.js"></script>
+</html>
