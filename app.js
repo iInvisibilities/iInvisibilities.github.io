@@ -70,7 +70,7 @@ function _0x401b() {
 		'assets/img/feedbackr/register-page.PNG',
 		'item',
 		'32cEJDYH',
-		'assets/img/planifier/_D__SaaS_srs_Planifier_frontend_src_project_panel.png',
+		'assets/img/planifier/D__SaaS_srs_Planifier_frontend_src_project_panel.png',
 		'promptLink',
 		'I\x20love\x20gradient\x20color\x20animations,\x20especially\x20on\x20buttons,\x20so\x20I\x20decided\x20to\x20create\x20this\x20little\x20component\x20library.\x0aThe\x20magic\x20behind\x20it\x20is\x20that\x20it\x20randomizes\x20its\x20theme\x20each\x20time\x20you\x20press\x20the\x20button.\x0aIt\x20makes\x20a\x20call\x20to\x20the\x20Color\x20Hunt\x20website,\x20grabs\x20the\x20website\x27s\x20title,\x20and\x20fetches\x20those\x20four\x20vibrant\x20colors\x20in\x20a\x20magical\x20way.\x0aI\x27m\x20really\x20proud\x20of\x20this\x20one.ors\x20in\x20some\x20magical\x20way.\x20I\x27m\x20really\x20proud\x20of\x20this\x20one.',
 		'3359796YuoJKQ',
@@ -87,7 +87,7 @@ function _0x401b() {
 		'remove',
 		'key',
 		'add',
-		'assets/img/planifier/_D__SaaS_srs_Planifier_frontend_src_panel.png',
+		'assets/img/planifier/D__SaaS_srs_Planifier_frontend_src_panel.png',
 		'getElementById',
 		'https://www.feedbackr.live',
 		'nearest',
@@ -133,7 +133,7 @@ function _0x401b() {
 		'https://www.magicbouton.art/',
 		'This\x20was\x20my\x20first\x20ever\x20serious\x20project,\x20I\x20thought\x20this\x20will\x20make\x20me\x20the\x20richest\x20man\x20on\x20the\x20planet,\x20until\x20I\x20got\x200\x20users...\x0aIn\x20fact\x20it\x20still\x20gets\x200\x20users\x20every\x20month,\x20but\x20as\x20they\x20say,\x20always\x20look\x20at\x20the\x20bright\x20side,\x20which\x20I\x20did,\x20and\x20the\x20bright\x20side\x20is\x20that\x20I\x20got\x20to\x20learn\x20&\x20harness\x20my\x20skills\x20even\x20stronger!\x0aI\x27m\x20really\x20proud\x20of\x20Feedbackr.',
 		'promptObjOverlay',
-		'assets/img/planifier/_D__SaaS_srs_Planifier_frontend_src_project_team_panel.png',
+		'assets/img/planifier/D__SaaS_srs_Planifier_frontend_src_project_team_panel.png',
 		'addEventListener',
 	];
 	_0x401b = function () {
@@ -209,7 +209,7 @@ document[_0x213a64(0x1c8)](_0x213a64(0x1e6), (_0x519f7b) => {
 			_0x31486e(0x1c3),
 			[
 				_0x31486e(0x1dd),
-				'assets/img/planifier/_D__SaaS_srs_Planifier_frontend_src_project_panel\x20(1).png',
+				'assets/img/planifier/D__SaaS_srs_Planifier_frontend_src_project_panel\x20(1).png',
 				_0x31486e(0x1cc),
 				_0x31486e(0x1c7),
 			],
