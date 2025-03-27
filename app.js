@@ -1,3 +1,4 @@
+//why the fuck did i obfuscate this
 const _0x213a64 = _0x49e4;
 (function (_0x1b650b, _0x230818) {
 	const _0xd389bc = _0x49e4,
